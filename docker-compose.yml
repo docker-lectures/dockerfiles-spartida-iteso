@@ -1,0 +1,12 @@
+services:
+  db: 
+    build: ./db
+  web:
+    build: ./web
+    ports:
+      - 80:80
+  words:
+    build: ./words
+    ports:
+      - 8080:8080
+
