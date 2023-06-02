@@ -9,3 +9,4 @@ FROM python
 COPY . . 
 CMD ["counter.py"]
 ENTRYPOINT [ "python" ]
+
